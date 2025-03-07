@@ -4,19 +4,19 @@
 
 <hr>
 
-<h2>📌 About the Project</h2>
+<h2> About the Project</h2>
 <p>SimLinux is a C program that <b>simulates a basic Linux directory structure</b>, allowing users to create, navigate, and manage directories in a simplified environment. The project provides a fundamental understanding of <b>file system operations</b> and is useful for learning about hierarchical structures in computing.</p>
 
-<h2>🚀 Features</h2>
+<h2> Features</h2>
 <ul>
-  <li>✅ <b>Create directories</b> – Simulate <code>mkdir</code> command.</li>
-  <li>✅ <b>Navigate directories</b> – Move between directories like <code>cd</code>.</li>
-  <li>✅ <b>List directory contents</b> – Mimic <code>ls</code> command behavior.</li>
-  <li>✅ <b>Delete directories</b> – Remove directories just like in Linux.</li>
-  <li>✅ <b>Hierarchy Representation</b> – Maintain a tree-like structure for directories.</li>
+  <li> <b>Create directories</b> – Simulate <code>mkdir</code> command.</li>
+  <li> <b>Navigate directories</b> – Move between directories like <code>cd</code>.</li>
+  <li> <b>List directory contents</b> – Mimic <code>ls</code> command behavior.</li>
+  <li> <b>Delete directories</b> – Remove directories just like in Linux.</li>
+  <li> <b>Hierarchy Representation</b> – Maintain a tree-like structure for directories.</li>
 </ul>
 
-<h2>📂 Project Structure</h2>
+<h2> Project Structure</h2>
 <pre>
 SimLinux/
 │── main.c            # Entry point of the simulation
@@ -26,25 +26,25 @@ SimLinux/
 │── README.md         # Project documentation
 </pre>
 
-<h2>🛠 Installation & Usage</h2>
+<h2> Installation & Usage</h2>
 
-<h3>1️⃣ Clone the Repository</h3>
+<h3>1️ Clone the Repository</h3>
 <pre>
 git clone https://github.com/shorminfiza/SimLinux-Linux-Directory-Simulation.git
 cd SimLinux-Linux-Directory-Simulation
 </pre>
 
-<h3>2️⃣ Compile the Program</h3>
+<h3>2️ Compile the Program</h3>
 <pre>
-gcc main.c directory.c -o simlinux
+gcc bplus_tree.c commands.c user_management.c simLinux.c -o run
 </pre>
 
-<h3>3️⃣ Run the Simulation</h3>
+<h3>3️ Run the Simulation</h3>
 <pre>
-./simlinux
+./run
 </pre>
 
-<h2>👨‍💻 How to Use</h2>
+<h2> How to Use</h2>
 <table>
   <tr>
     <th>Command</th>
@@ -76,12 +76,12 @@ gcc main.c directory.c -o simlinux
   </tr>
 </table>
 
-<h2>💡 Why Use This Project?</h2>
+<h2> Why Use This Project?</h2>
 <ul>
-  <li>🔹 Ideal for <b>students & beginners</b> learning about file systems.</li>
-  <li>🔹 A great <b>mini-project</b> for C programming practice.</li>
-  <li>🔹 Helps understand <b>tree data structures</b> practically.</li>
+  <li> Ideal for <b>students & beginners</b> learning about file systems.</li>
+  <li> A great <b>mini-project</b> for C programming practice.</li>
+  <li> Helps understand <b>tree data structures</b> practically.</li>
 </ul>
 
-<h2>📜 License</h2>
+<h2> License</h2>
 <p>This project is licensed under the <b>MIT License</b> – feel free to modify and contribute!</p>
